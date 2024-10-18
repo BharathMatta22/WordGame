@@ -12,11 +12,11 @@ It's like the [MasterMind game](https://en.wikipedia.org/wiki/Mastermind_(board_
 
 You can try it out on Glitch:
 
-* [English](https://word-mastermind.glitch.me/)
-* [Romanian](https://word-mastermind.glitch.me/?dictName=ro-ro-5)
-* [Romanian (6 letter words)](https://word-mastermind.glitch.me/?dictName=ro-ro-6)
-* [Swedish](https://word-mastermind.glitch.me/?dictName=sv-se-5)
-* [Dutch](https://word-mastermind.glitch.me/?dictName=nl-nl-5)
+* [English](https://WordGame.glitch.me/)
+* [Romanian](https://WordGame.glitch.me/?dictName=ro-ro-5)
+* [Romanian (6 letter words)](https://WordGame.glitch.me/?dictName=ro-ro-6)
+* [Swedish](https://WordGame.glitch.me/?dictName=sv-se-5)
+* [Dutch](https://WordGame.glitch.me/?dictName=nl-nl-5)
 
 ## How to Play
 
@@ -37,7 +37,7 @@ To make it easy, the keyboard at the bottom of the screen will highlight the sta
 Clone this repo:
 
 ```
-git clone https://github.com/clupasq/word-mastermind.git
+git clone https://github.com/BharathMatta22/WordGame.git
 cd word-mastermind
 ```
 
@@ -52,21 +52,21 @@ You can either pull the latest docker image from the Github Repository, or build
 To pull the image:
 
 ```
-docker pull ghcr.io/clupasq/word-mastermind:latest
+docker pull ghcr.io/BharathMatta22/WordGame:latest
 ```
 
 To build the image:
 
 ```
-cd word-mastermind
-docker build -t word-mastermind .
+cd WordGame
+docker build -t WordGame .
 cd ..
 ```
 
 Once the image is available, you can start a container:
 
 ```
-docker run --rm -p "3333:80" word-mastermind
+docker run --rm -p "3333:80" WordGame
 ```
 
 Then, go to http://localhost:3333.
